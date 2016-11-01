@@ -88,6 +88,10 @@ input {
   color: black;
 }
 
+.prev-next a:link {
+  color: black;
+}
+
 span {
   padding-left: 15px;
   padding-right: 15px;
