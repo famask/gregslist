@@ -1,0 +1,136 @@
+body {
+  font-family: arial;
+  font-size: 18px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #e3e1e3;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 28px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  position: absolute;
+  right: 70px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: purple;
+}
+
+li a:hover {
+  color: green;
+}
+
+main {
+  /*border: 2px solid black;*/
+  position: relative;
+  top: 160px;
+  height: 400px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  font-size: 27px;
+  border: 1px solid #e3e1e3;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+
+.search {
+  position: relative;
+  left: 10px;
+  top: 6px;
+}
+
+.prev-next {
+  border: 1px solid #e3e1e3;
+  border-radius: 5px;
+  width: 35%;
+  height: 40px;
+  position: relative;
+  top: 55px;
+}
+
+.prev-next a {
+  text-decoration: none;
+}
+
+.prev-next a:visited {
+  color: black;
+}
+
+span {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 24px;
+  position: relative;
+  left: 5px;
+  top: 6px;
+}
+
+.prev {
+  border-right: 1px solid #e3e1e3;
+}
+
+.next {
+  border-left: 1px solid #e3e1e3;
+}
+
+.prev:before {
+  content: "< ";
+}
+
+.next:after {
+  content: " >";
+}
+
+section {
+  position: relative;
+  top: 105px;
+  left: -18px;
+  padding-bottom: 20px;
+}
+
+.job-date, .job-location {
+  color: #a9a9a9;
+}
+
+.job-title a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.job-title a:visited {
+  color: blue;
+}
