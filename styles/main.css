@@ -61,14 +61,14 @@ input {
   font-size: 27px;
   border: 1px solid #e3e1e3;
   border-radius: 5px;
-  padding: 0px;
+  padding: 10px;
 }
 
 
 .search {
   position: relative;
   left: 10px;
-  top: 6px;
+  top: 17px;
 }
 
 .prev-next {
